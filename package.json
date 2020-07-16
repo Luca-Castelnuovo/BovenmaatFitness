@@ -1,8 +1,8 @@
 {
-  "name": "ta-soest",
+  "name": "bovenmaatfitness",
   "version": "1.0.0",
-  "description": "TechAssistants Soest",
-  "author": "Luca Castelnuovo <ltcastelnuovo@gmail.com> (https://lucacastelnuovo.nl)",
+  "description": "Bovenmaat Fitness",
+  "author": "Luca Castelnuovo <luca@castelnuovo.xyz> (https://lucacastelnuovo.nl)",
   "browserslist": {
     "development": [
       "last 1 chrome version",
@@ -15,7 +15,7 @@
       "not op_mini all"
     ]
   },
-  "homepage": "https://ta-soest.nl",
+  "homepage": "https://bovenmaatfitness.nl/",
   "prettier": {
     "singleQuote": true,
     "tabWidth": 4
@@ -23,7 +23,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Luca-Castelnuovo/TA-Soest.git"
+    "url": "git+https://github.com/Luca-Castelnuovo/BovenmaatFitness.git"
   },
   "scripts": {
     "build": "eleventy",
