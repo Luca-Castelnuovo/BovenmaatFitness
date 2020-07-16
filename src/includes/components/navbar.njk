@@ -1,0 +1,36 @@
+<header>
+    <nav>
+        <div class="nav-wrapper color-primary--background">
+            <a href="{{ navigation.home.url }}" class="brand-logo"
+                ><img
+                    src="{{ site.images.logo }}"
+                    alt="Logo || {{ site.name }}"
+                    class="responsive-img"
+/></a>
+            <a href="#" data-target="mobile" class="right sidenav-trigger"
+                >
+                <i class="material-icons">menu</i>
+            </a
+            >
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                {% for key, item in navigation %}
+                    {% if item.label %}
+                        <li class="{% if page.url == item.url %}active{% endif %}">
+                            <a href="{{ item.url | safe }}" class="color-secondary" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+
+    <ul id="mobile" class="sidenav">
+        {% for key, item in navigation %}
+            {% if item.label %}
+                <li class="{% if page.url == item.url %}active{% endif %}">
+                    <a href="{{ item.url | safe }}" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</header>

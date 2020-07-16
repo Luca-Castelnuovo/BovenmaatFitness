@@ -1,0 +1,30 @@
+{
+    "home": {
+        "label": "Home",
+        "url": "/"
+    },
+    "afspraakMaken": {
+        "label": "Afspraak Maken",
+        "url": "/afspraak/"
+    },
+    "overOns": {
+        "label": "Over Ons",
+        "url": "/over-ons/"
+    },
+    "publicaties": {
+        "label": "Publicaties",
+        "url": "/publicaties/"
+    },
+    "algemeneVoorwaarden": {
+        "label": "",
+        "url": "/voorwaarden/"
+    },
+    "copyright": {
+        "label": "",
+        "url": "/copyright/"
+    },
+    "privacybeleid": {
+        "label": "",
+        "url": "/privacy/"
+    }
+}

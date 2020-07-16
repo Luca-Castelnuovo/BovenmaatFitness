@@ -1,0 +1,41 @@
+[build]
+  base = ""
+  publish = "dist"
+  command = "npm run build"
+  # functions = "project/functions/"
+
+  [build.processing]
+    skip_processing = false
+  [build.processing.css]
+    bundle = true
+    minify = false
+  [build.processing.js]
+    bundle = true
+    minify = false
+  [build.processing.html]
+    pretty_urls = true
+  [build.processing.images]
+    compress = true
+
+
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    X-Permitted-Cross-Domain-Policies = "none"
+    Referrer-Policy = "SAME-ORIGIN"
+
+[[headers]]
+  for = "/static/*"
+
+  [headers.values]
+    Cache-Control = "public,max-age=31536000,immutable"
+
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
