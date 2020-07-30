@@ -37,11 +37,7 @@ yarn run build && cd build/ && python -m SimpleHTTPServer build/
 
 -   Github: [@Luca-Castelnuovo](https://github.com/Luca-Castelnuovo)
 
-👤 **PepijnRezelman**
-
--   Github: [@Luca-Castelnuovo](https://github.com/PepijnRezelman)
-
 ## 📝 License
 
-Copyright © 2020 [Luca-Castelnuovo](https://github.com/Luca-Castelnuovo) and [PepijnRezelman](https://github.com/PepijnRezelman).<br />
+Copyright © 2020 [Luca-Castelnuovo](https://github.com/Luca-Castelnuovo).<br />
 This project is [UNLICENSED](https://choosealicense.com/no-permission/).
