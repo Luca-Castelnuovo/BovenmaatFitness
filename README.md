@@ -1,27 +1,47 @@
-<p align="center"><a href="https://github.com/Luca-Castelnuovo/BovenmaatFitness"><img src="https://rawcdn.githack.com/Luca-Castelnuovo/Deploy/09849e0612d3b4ea98589b0b49605483b4164170/public/assets/images/banner.png"></a></p>
-
-<p align="center">
-    <a href="https://app.netlify.com/sites/bovenmaatfitness/deploys"><img src="https://api.netlify.com/api/v1/badges/214e263a-975a-4fac-9176-bf4f20b6465c/deploy-status" alt="Netlify Status"></a>
+<h1 align="center">Welcome to Bovenmaat Fitness 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://choosealicense.com/no-permission/" target="_blank">
+    <img alt="License: UNLICENSED" src="https://img.shields.io/badge/License-UNLICENSED-yellow.svg" />
+  </a>
+  <a href="https://app.netlify.com/sites/bovenmaatfitness/deploys" target="_blank">
+    <img alt="netlify" src="https://api.netlify.com/api/v1/badges/e796bc4f-ddaa-407b-8c61-7caac9f0639d/deploy-status" />
+  </a>
 </p>
 
-# Bovenmaat Fitness
+> Fitness op maat
 
-Securely upload and share files.
+### 🏠 [Homepage](https://bovenmaatfitness.nl/)
 
-## Installation
+## Install
 
-For development
+```sh
+yarn
+```
 
-1. `git clone git@github.com:Luca-Castelnuovo/BovenmaatFitness.git`
-2. `yarn install`
-3. Start development server `yarn start`
+## Usage
 
-For production
+```sh
+yarn run start
+```
 
-1. `git clone git@github.com:Luca-Castelnuovo/BovenmaatFitness.git`
-2. `yarn install`
-3. `yarn build`
+OR
 
-## Credits
+```sh
+yarn run build && cd build/ && python -m SimpleHTTPServer build/
+```
 
-Author: [Luca Castelnuovo](https://github.com/Luca-Castelnuovo)
+## Author
+
+👤 **Luca-Castelnuovo**
+
+-   Github: [@Luca-Castelnuovo](https://github.com/Luca-Castelnuovo)
+
+👤 **PepijnRezelman**
+
+-   Github: [@Luca-Castelnuovo](https://github.com/PepijnRezelman)
+
+## 📝 License
+
+Copyright © 2020 [Luca-Castelnuovo](https://github.com/Luca-Castelnuovo) and [PepijnRezelman](https://github.com/PepijnRezelman).<br />
+This project is [UNLICENSED](https://choosealicense.com/no-permission/).
