@@ -39,5 +39,5 @@ yarn run build && cd build/ && python -m SimpleHTTPServer build/
 
 ## 📝 License
 
-Copyright © 2020 [Luca-Castelnuovo](https://github.com/Luca-Castelnuovo).<br />
+Copyright © 2020 Bovenmaat Fitness.<br />
 This project is [UNLICENSED](https://choosealicense.com/no-permission/).
