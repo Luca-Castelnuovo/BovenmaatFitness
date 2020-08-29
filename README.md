@@ -33,6 +33,10 @@ yarn run build && cd build/ && python -m SimpleHTTPServer build/
 
 ## Author
 
+👤 **PepijnRezelman**
+
+-   Github: [@PepijnRezelman](https://github.com/PepijnRezelman)
+
 👤 **Luca-Castelnuovo**
 
 -   Github: [@Luca-Castelnuovo](https://github.com/Luca-Castelnuovo)
