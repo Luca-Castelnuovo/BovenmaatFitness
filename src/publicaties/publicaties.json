@@ -1,5 +1,0 @@
-{
-  "layout": "publication",
-  "tags": "publication",
-  "templateEngineOverride": "njk,md"
-}
