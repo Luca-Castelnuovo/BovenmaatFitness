@@ -1,39 +1,81 @@
 {
-  "name": "bovenmaatfitness",
-  "version": "1.0.0",
-  "description": "Bovenmaat Fitness",
-  "author": "Luca Castelnuovo <luca@castelnuovo.xyz> (https://lucacastelnuovo.nl)",
-  "browserslist": {
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ],
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ]
-  },
-  "homepage": "https://bovenmaatfitness.nl/",
-  "prettier": {
-    "singleQuote": true,
-    "tabWidth": 4
-  },
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Luca-Castelnuovo/BovenmaatFitness.git"
-  },
-  "scripts": {
-    "build": "eleventy",
-    "start": "eleventy --serve"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "clean-css": "^4.2.3",
-    "html-minifier": "^4.0.0",
-    "luxon": "^1.24.1",
-    "uglify-js": "^3.10.0"
-  }
+    "name": "sluijterkappers",
+    "version": "0.0.1",
+    "browserslist": {
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ],
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "plugin:prettier/recommended"
+        ],
+        "settings": {
+            "import/resolver": {
+                "node": {
+                    "paths": [
+                        "src"
+                    ]
+                }
+            }
+        }
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "src/**/*.{js,jsx,json,css}": [
+            "prettier --write",
+            "./node_modules/.bin/eslint --max-warnings 0",
+            "git add"
+        ]
+    },
+    "prettier": {
+        "singleQuote": true,
+        "tabWidth": 4
+    },
+    "private": true,
+    "scripts": {
+        "build": "react-scripts build",
+        "start": "react-scripts start",
+        "test": "react-scripts test"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.30",
+        "@fortawesome/free-brands-svg-icons": "^5.14.0",
+        "@fortawesome/free-solid-svg-icons": "^5.14.0",
+        "@fortawesome/react-fontawesome": "^0.1.11",
+        "bulma": "^0.9.0",
+        "bulma-carousel": "^4.0.4",
+        "classnames": "^2.2.6",
+        "node-sass": "^4.14.1",
+        "prop-types": "^15.7.2",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-router-config": "^5.1.1",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^3.4.3",
+        "react-scroll": "^1.8.1",
+        "styled-components": "^5.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.20.6",
+        "husky": "^4.3.0",
+        "lint-staged": "^10.3.0",
+        "prettier": "^2.0.5"
+    }
 }
