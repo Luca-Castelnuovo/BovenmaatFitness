@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+// Custom font
+@font-face {
+    font-family: 'Didact Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url('../../Assets/fonts/DidactGothicRegular.woff2') format('woff2'),
+        url('../../Assets/fonts/DidactGothicRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Bank Gothic';
+    font-weight: normal;
+    font-style: 400;
+    font-display: fallback;
+    src: url('../../Assets/fonts/BankGothicMedium.woff2') format('woff2'),
+        url('../../Assets/fonts/BankGothicMedium.woff') format('woff');
+}
+
+// Set brand style
+$primary-font: 'Didact Gothic', sans-serif;
+$secondary-font: 'Bank Gothic', sans-serif;
+$primary-color: #a59d91;
+$secundary-color: #008ada;
+$accent-color: #dddddd;
+$background-color: #fff;
+
+// Update Bulma's globals
+$primary: $primary-color;
+$link: $secundary-color;
+$dimensions: 16 24 32 48 64 96 128 192 256 512;
+
+// Update Bulma's components
+$body-line-height: 1.25;
+$body-background-color: $background-color;
+$control-border-width: 2px;
+$control-radius: 100px;
+$family-primary: $primary-font;
+$family-secondary: $secondary-font;
+$footer-background-color: $accent-color;
+$input-shadow: none;
+$navbar-item-active-background-color: $accent-color;
+$navbar-item-hover-background-color: $accent-color;
+
+// Import required Bulma files
+@import '~bulma/bulma.sass';
+
+// Animated mobile nav
+@include until($desktop) {
+    .navbar-menu {
+        display: block;
+        opacity: 0;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+
+        transform: translateY(-50%);
+        transition: all 0.4s ease-in-out;
+        pointer-events: none;
+    }
+
+    .navbar-menu.is-active {
+        opacity: 1;
+        transform: none;
+        pointer-events: auto;
+    }
+}
