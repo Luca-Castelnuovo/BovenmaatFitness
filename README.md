@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Sluijter Kappers 👋</h1>
+<h1 align="center">Welcome to Bovenmaat Fitness 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://choosealicense.com/no-permission/" target="_blank">
@@ -9,9 +9,9 @@
   </a>
 </p>
 
-> Je hebt kappers en kappers. SluijterKappers is al vele jaren een zeer eigentijdse kapper / kapsalon in Soest. Voor dames, heren, kinderen van alle leeftijden. Afspraken online en telefonisch.
+> Persoonlijke aandacht
 
-### 🏠 [Homepage](https://sluijterkappers.nl)
+### 🏠 [Homepage](https://bovenmaatfitness.nl)
 
 ## Install
 
