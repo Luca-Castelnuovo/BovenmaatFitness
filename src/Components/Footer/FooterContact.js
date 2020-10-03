@@ -8,10 +8,10 @@ const FooterContact = () => {
             <div className="columns is-centered">
                 <div className="column is-narrow">
                     <a
-                        href="tel:0356018613"
+                        href="tel:0355255177"
                         className="button is-primary is-medium"
                     >
-                        035 601 8613
+                        035 525 5177
                     </a>
                 </div>
 
