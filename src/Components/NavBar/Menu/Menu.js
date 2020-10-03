@@ -13,10 +13,11 @@ const Menu = ({ hamburgerOpen }) => {
     return (
         <div className={classes}>
             <div className="navbar-start">
-                <MenuLink to="/dames">Dames</MenuLink>
-                <MenuLink to="/heren">Heren</MenuLink>
-                <MenuLink to="/producten">Producten</MenuLink>
-                <MenuLink to="/team">Team</MenuLink>
+                <MenuLink to="/home">Home</MenuLink>
+                <MenuLink to="/persoonlijke-aandacht">
+                    Persoonlijke aandacht
+                </MenuLink>
+                <MenuLink to="/inschrijven">Lid worden</MenuLink>
             </div>
 
             <div className="navbar-end is-hidden-touch">
