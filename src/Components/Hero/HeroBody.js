@@ -17,8 +17,8 @@ const HeroBody = () => {
     return (
         <div className="hero-body has-text-centered">
             <HeroTitle className="title is-family-secondary has-text-white">
-                Sluijter
-                <br /> Kappers
+                Bovenmaat
+                <br /> Fitness
             </HeroTitle>
         </div>
     );

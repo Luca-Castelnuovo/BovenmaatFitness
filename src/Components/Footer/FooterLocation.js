@@ -8,15 +8,15 @@ const FooterLocation = () => {
             <p className="title">Locatie</p>
             <p className="is-hidden-desktop is-size-3">
                 <Link to="/redirect/gmaps">
-                    Zuidpromenade 1a, <br />
-                    3768 EM SOEST
+                    Bovenmaatweg 48, <br />
+                    1274 RM Huizen
                 </Link>
             </p>
 
             <div className="is-hidden-touch">
                 <Link to="/redirect/gmaps">
                     <figure className="image is-3by2">
-                        <img alt="Locatie || Sluijter Kappers" src={Maps} />
+                        <img alt="Locatie || Bovenmaat Fitness" src={Maps} />
                     </figure>
                 </Link>
             </div>

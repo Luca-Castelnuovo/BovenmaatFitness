@@ -19,11 +19,23 @@
         url('../../Assets/fonts/BankGothicMedium.woff') format('woff');
 }
 
+/*
+
+Elements
+Primary: #007CBE
+Secundary: #787878
+
+Text
+Primary: #202020
+Secundary: #6D6D6D
+
+*/
+
 // Set brand style
 $primary-font: 'Didact Gothic', sans-serif;
 $secondary-font: 'Bank Gothic', sans-serif;
-$primary-color: #a59d91;
-$secundary-color: #008ada;
+$primary-color: #007CBE;
+$secundary-color: #007CBE;
 $accent-color: #dddddd;
 $background-color: #fff;
 

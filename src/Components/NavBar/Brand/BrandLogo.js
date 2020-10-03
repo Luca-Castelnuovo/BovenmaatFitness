@@ -14,7 +14,7 @@ const BrandLogo = () => {
     return (
         <Link to="/" className="navbar-item">
             <Title className="is-uppercase is-family-secondary has-text-white has-background-black pl-1 pr-1">
-                Sluijter
+                Bovenmaat Fitness
             </Title>
         </Link>
     );
