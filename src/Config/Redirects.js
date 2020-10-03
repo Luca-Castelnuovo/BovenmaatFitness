@@ -6,11 +6,7 @@ const Redirects = [
     },
     {
         from: 'gmaps',
-        to: 'https://goo.gl/maps/QHqqmRkRn8zhjNU57',
-    },
-    {
-        from: 'streetview',
-        to: 'https://goo.gl/nLHynf',
+        to: 'https://goo.gl/maps/UEYRN5wmFjdxnBbQA',
     },
 ];
 

@@ -12,6 +12,7 @@ const FooterLocation = () => {
                     3768 EM SOEST
                 </Link>
             </p>
+
             <div className="is-hidden-touch">
                 <Link to="/redirect/gmaps">
                     <figure className="image is-3by2">

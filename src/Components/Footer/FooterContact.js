@@ -1,27 +1,26 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Footerbooking = () => {
+const FooterContact = () => {
     return (
         <div className="column is-one-third">
-            <p className="title">Afspraak Maken</p>
+            <p className="title">Contact</p>
 
             <div className="columns is-centered">
                 <div className="column is-narrow">
-                    <Link
-                        to="/redirect/booking"
+                    <a
+                        href="tel:0356018613"
                         className="button is-primary is-medium"
                     >
-                        Online
-                    </Link>
+                        035 601 8613
+                    </a>
                 </div>
 
                 <div className="column is-narrow">
                     <a
-                        href="tel:0356018613"
+                        href="mailto:tpreijde@xs4all.nl?subject=Contact%20Bovenmaat%20Fitness&body=H%C3%A9%20Tom%2C%0D%0A%0D%0A"
                         className="button is-primary is-medium is-outlined"
                     >
-                        035 601 8613
+                        tpreijde@xs4all.nl
                     </a>
                 </div>
             </div>
@@ -29,4 +28,4 @@ const Footerbooking = () => {
     );
 };
 
-export default Footerbooking;
+export default FooterContact;
